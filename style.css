@@ -35,7 +35,8 @@ body{
 }
 
 .image{
-    width: 50vw;
+    width: 35vw;
+    margin-top: 10%;
 }
 
 .right-page{
@@ -133,6 +134,7 @@ input::placeholder{
 
     .image{
         width: 70%;
+        margin-top: 10vh;
     }
     .left-page > h1{
         display: none;
