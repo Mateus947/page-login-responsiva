@@ -121,8 +121,19 @@ input::placeholder{
         display:flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
+
+    .left-page{
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .image{
+        width: 70%;
+    }
     .left-page > h1{
         display: none;
     }
