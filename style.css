@@ -31,6 +31,7 @@ body{
     color:#00F474;
     text-align: center;
     margin-top: 3rem;
+    font-size: 3rem;
 }
 
 .image{
@@ -39,7 +40,6 @@ body{
 
 .right-page{
     width: 50vw;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,10 +55,9 @@ body{
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    width: 600px;
-    height: auto;
+    width: 400px;
     border-radius: 1rem;
-    
+    transform: scale(1.23);
 }
 
 
@@ -109,4 +108,27 @@ label{
 
 input::placeholder{
     color: #f0ffffde
+}
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left-page > h1{
+        display: none;
+    }
+
+    .right-page{
+        margin-top: 10vh;
+        width: 70%;
+    }
 }
