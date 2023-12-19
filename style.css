@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Noto+Sans:wght@500;700&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color:#30203f;
+    font-family: noto;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+
+.left-page{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-page h1 {
+    color:#00F474;
+}
+
+
+.right-page{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-page h1{
+    color:#00F474;
+}
+
+.card-login{
+    background-color:#674985;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 400px;
+    border-radius: 20px;
+}
+
+
+.name-user, .password-user{
+    padding: 0.5rem ;
+    display: flex;
+    flex-direction: column;
+}
+
+
+input{
+    border-radius: 0.4rem;
+    width: 19rem;;
+    background-color:#976EE6;
+    border:none;
+    outline: none;
+    padding: 0.6rem 0.8rem;
+    margin: auto;
+}
+
+
+
+label{
+    padding-bottom: 0.4rem;
+    color: #f0ffffde;
+}
+
+.div-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-login{
+    background-color: #00F474;
+    border: none;
+    border-radius: 0.2rem;
+    width: 90%;
+    padding: 0.8rem 0rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+input::placeholder{
+    color: #f0ffffde
+}
