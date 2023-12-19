@@ -8,14 +8,15 @@
 }
 
 body{
-    background-color:#30203f;
-    font-family: noto;
+    background-color:#140f19;
+    font-family: 'noto-sans', sans-serif;
 }
 
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 };
 
 
@@ -28,8 +29,13 @@ body{
 
 .left-page h1 {
     color:#00F474;
+    text-align: center;
+    margin-top: 3rem;
 }
 
+.image{
+    width: 50vw;
+}
 
 .right-page{
     width: 50vw;
@@ -41,15 +47,18 @@ body{
 
 .right-page h1{
     color:#00F474;
+    text-align: center;
 }
 
 .card-login{
-    background-color:#674985;
+    background-color:#352248;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    width: 400px;
-    border-radius: 20px;
+    width: 600px;
+    height: auto;
+    border-radius: 1rem;
+    
 }
 
 
@@ -62,12 +71,13 @@ body{
 
 input{
     border-radius: 0.4rem;
-    width: 19rem;;
-    background-color:#976EE6;
+    width: 100%;
+    background-color:#7255a7;
     border:none;
     outline: none;
     padding: 0.6rem 0.8rem;
     margin: auto;
+    color: #f0ffffde;
 }
 
 
@@ -75,6 +85,7 @@ input{
 label{
     padding-bottom: 0.4rem;
     color: #f0ffffde;
+    width: 100%;
 }
 
 .div-btn{
@@ -86,8 +97,8 @@ label{
 .btn-login{
     background-color: #00F474;
     border: none;
-    border-radius: 0.2rem;
-    width: 90%;
+    border-radius: 0.5rem;
+    width: 95%;
     padding: 0.8rem 0rem;
     font-weight: 800;
     letter-spacing: 4px;
